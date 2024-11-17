@@ -4,7 +4,7 @@ import React from 'react'
 import {Html5QrcodeScannerPlugin} from "./Html5QrcodeScannerPlugin";
 
 const CONFIG = {
-  fps: 1,
+  fps: 2,
   qrbox: {width: 300, height: 200},
   formatsToSupport: [
     Html5QrcodeSupportedFormats.CODE_128,
