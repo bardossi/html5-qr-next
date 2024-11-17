@@ -24,7 +24,7 @@ export default function Codereader() {
           Vonalkódolvasó modul
         </h1>
        
-        <div className="p-4 border border-gray-300 rounded-lg bg-gray-50">
+        <div className="p-4 border border-gray-300 text-gray-800 rounded-lg bg-gray-50">
          
             <ScannerExample onCodeScanned={handleCodeScanned} />
           
